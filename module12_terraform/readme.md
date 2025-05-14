@@ -11,15 +11,15 @@ Terraform architecture:
 
 Declarative vs Imperative:
 
-Declarative:-
-
-- provide the state which you desire in config
-- dont add new instructions
-- adjust the values in old config file and rerun it
-- its like saying "I need 7 servers with a firewall, do what needs to be done - figure out yourself" 
+  Declarative:-
+  
+  - provide the state which you desire in config
+  - dont add new instructions
+  - adjust the values in old config file and rerun it
+  - its like saying "I need 7 servers with a firewall, do what needs to be done - figure out yourself" 
   
 
-Imperative:-
-
-- give clear cut insrtuctions what exactly user need
-- user have to perform calculations on their own , and state the same in config file
+  Imperative:-
+  
+  - give clear cut insrtuctions what exactly user need
+  - user have to perform calculations on their own , and state the same in config file
