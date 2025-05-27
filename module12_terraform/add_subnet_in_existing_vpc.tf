@@ -21,5 +21,5 @@ data "aws_vpc" "existing_vpc" {
 resource "aws_subnet" "dev-subnet-2" {
   vpc_id = data.aws_vpc.existing_vpc.id
   cidr_block = "172.31.48.0/20"
-  availability_zone = "use-east-1a"
+  availability_zone = "use-east-2a"
 }
