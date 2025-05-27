@@ -14,6 +14,7 @@ resource "aws_subnet" "dev-subnet-1"{
   availability_zone = "us-east-2a"
 } 
 
+# Fetch default VPC in us-east-2 (matches the provider region)
 data "aws_vpc" "existing_vpc" {
   default = true 
 }
