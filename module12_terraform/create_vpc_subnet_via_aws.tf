@@ -13,3 +13,5 @@ resource "aws_subnet" "dev-subnet-1"{
   cidr_block = "10.0.10.0/24"
   availability_zone = "us-east-2a"
 }  
+
+
