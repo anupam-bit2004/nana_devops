@@ -41,6 +41,7 @@ Providers:
 Tags:
  - helps in naming the subnets / vpcs in the cloud environment
  - For example:
+  ``` 
   provider "aws" {
     region = "us-east-2"
     access_key = "AKIAYQNJSXUEC77OTSNJ"
@@ -59,8 +60,8 @@ Tags:
     vpc_id = aws_vpc.development-vpc.id
     cidr_block = "10.0.10.0/24"
     availability_zone = "us-east-2a"
-  
     tags = {
       Name: "subnet-1-dev"
     }
   }
+  ```
